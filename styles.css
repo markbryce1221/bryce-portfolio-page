@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a3a3c7;
+    color: #333 ;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    margin: 20px 0;
+}
+.name{
+    padding-right: 950px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.port{
+    padding: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: -325px;
+    padding-left: 250px;
+
+}
+
+p {
+    justify-content: center;
+    padding-left: 510px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+ul {
+    list-style: none;
+    padding-left: 550px;
+    margin-top: -56px;
+}
+
+ul li {
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+
+.image-container {
+  margin-top: 105px;
+  padding-left: 205px;
+  }
+.image-container img{
+
+  border-radius: 50%;
+  background-color: #222;
+  box-shadow: 0 0 20px rgb(185, 185, 216), 0 0 40px rgb(83, 97, 97), 0 0 60px   rgb(85, 85, 114);
+}
+img{
+    max-height: auto;
+    width: 280px;
+}
+.nav-buttons a {
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .nav-buttons a:hover {
+    background-color: #d31740;
+    transform: scale(1.05);
+  }
